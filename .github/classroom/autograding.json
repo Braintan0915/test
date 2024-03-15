@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "g++ main1.cpp",
+      "run": "./a.out",
+      "input": "3",
+      "output": "Incorrect pwd！",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
